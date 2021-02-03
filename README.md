@@ -23,7 +23,7 @@ This is my React Portfolio
 
 ## Usage
 
-Go to [Portfolio App]() 
+Go to [Portfolio App](  https://morrow7564.github.io/reactPortfolio/) 
 
 
 ## Technologies
@@ -37,7 +37,7 @@ Go to [Portfolio App]()
 
 ## Repository
 
-- [Project Repo]()
+- [Project Repo](https://github.com/morrow7564/reactPortfolio)
 
 
 ## GitHub

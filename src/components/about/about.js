@@ -21,7 +21,11 @@ export default class About extends Component {
                }
                </p> 
           <div>
-          <button href= "https://docs.google.com/document/d/1bBwJDz3Mr8uPZIH3LcwWAZv2hyID4QQDyWCLi0uxKkc/edit" target="_blank" rel="noreferrer" className='butt'>RESUME</button>
+            <a href= "https://docs.google.com/document/d/1bBwJDz3Mr8uPZIH3LcwWAZv2hyID4QQDyWCLi0uxKkc/edit" target="_blank" rel="noreferrer">
+
+            
+          <button className='butt'>RESUME</button>
+          </a>
           </div>
                </div>
             </div>
