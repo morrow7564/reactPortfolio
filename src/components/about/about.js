@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Fade from 'react-reveal/Fade';
+import pdf from "./CM-resume.pdf";
 
 export default class About extends Component {
   render() {
@@ -11,7 +13,7 @@ export default class About extends Component {
 
 
             </div>
-
+            <Fade bottom> 
             <div className="10 columns main-col">
 
                <h2>About Me</h2>
@@ -21,13 +23,12 @@ export default class About extends Component {
                }
                </p> 
           <div>
-            <a href= "https://docs.google.com/document/d/1bBwJDz3Mr8uPZIH3LcwWAZv2hyID4QQDyWCLi0uxKkc/edit" target="_blank" rel="noreferrer">
-
-            
+          <a href={pdf} target="_blank" rel="noreferrer">
           <button className='butt'>RESUME</button>
           </a>
           </div>
                </div>
+               </Fade>
             </div>
       
       </section>

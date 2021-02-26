@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import Fade from 'react-reveal/Fade';
 
 export default class Inspiration extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
       <section id="inspiration">
+        <Fade bottom> 
         <div className="text-container">
           <div className="row">
            
@@ -30,6 +32,7 @@ export default class Inspiration extends Component {
             </div> 
           </div>
         </div>  
+        </Fade>
       </section>
         );
   }

@@ -37,12 +37,12 @@ header .banner {
    width: 85%;
    padding-bottom: 30px;
    text-align: center;
-   animation: transitionIn 0.60s;
+   /* animation: transitionIn 0.60s; */
 }
-@keyframes transitionIn {
+/* @keyframes transitionIn {
    from {opacity: 0; transform: translateY(10em);}
    to {opacity: 1; transform: translateY(0); }
- }
+ } */
 
 header .banner-text { width: 100%; }
 header .banner-text h2 {
@@ -66,6 +66,21 @@ header .banner-text hr {
    margin: 18px auto 24px auto;
    border-color: #2F2D2E;
    border-color: rgba(150, 150, 150, .1);
+}
+
+
+header .social-links {
+   margin: 18px 0 30px 0;
+   padding: 0;
+   font-size: 30px;
+   color: white !important;
+}
+header .social-links li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 42px;
+   
 }
 
 
@@ -204,7 +219,9 @@ ul#nav li.current a { color:  #e9da05; }
 }
 #resume h1 span {
    border-bottom: 3px solid  #000000;
+
    padding-bottom: 6px;
+
 }
 
 
@@ -674,7 +691,7 @@ footer .copyright li:before {
     content: "\2022";
     padding-left: 10px;
     padding-right: 10px;
-    color: #095153;
+    color: white;
 }
 footer .copyright  li:first-child:before {
     display: none;

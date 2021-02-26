@@ -50,22 +50,22 @@ let resumeData = {
   ],
   "portfolio": [
     {
-      "name": "Restaurant Search",
-      "description": "Search for a restaurant in your area",
+      "name": "Restaurant Finder",
+      "description": "Search engine that helps you find food in your area.",
       "imgurl": "images/portfolio/rfinder.PNG",
       "link": "https://morrow7564.github.io/Restaurant-Finder/"
     },
     {
       "name": "Budget Tracker",
-      "description": "Budget Tracker for the modern people",
+      "description": "Budget Tracker for the modern people.",
       "imgurl": "images/portfolio/BudgetTracker.png",
       "link": "https://smartmoneybudget.herokuapp.com/"
     },
     {
       "name": "Modern Living",
-      "description": "All-in-one site for all of your home improvement needs",
+      "description": "All-in-one site for all of your home improvement needs.",
       "imgurl": "images/portfolio/ModernLiving.png",
-      "link": ""
+      "link": " https://modernlive.herokuapp.com/"
     },
   ],
   "inspiration": [

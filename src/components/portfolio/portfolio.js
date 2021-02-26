@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import Fade from 'react-reveal/Fade';
+
 export default class Porfolio extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
       <section id="portfolio">
+         <Fade bottom> 
       <div className="row">
         <div className="twelve columns collapsed">
         <h1>Portfolio</h1> <h2>Check Out Some of My Work.</h2>
@@ -11,6 +14,8 @@ export default class Porfolio extends Component {
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
+             
+             
               return(
                 <div className="columns portfolio-item">
                   
@@ -35,6 +40,7 @@ export default class Porfolio extends Component {
           </div>
         </div>
       </div>
+      </Fade>
   </section>
         );
   }
