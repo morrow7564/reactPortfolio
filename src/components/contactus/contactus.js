@@ -6,6 +6,7 @@ export default class ContactUs extends Component {
       <section id="contact">
           <div className="row section-head">
             <div> <h1>Contact Me</h1></div>
+            <div> <h2>Morrow7564@gmail.com</h2></div>
           
         
      <div className='contactbox'>

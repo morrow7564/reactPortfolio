@@ -53,7 +53,9 @@ let resumeData = {
       "name": "Restaurant Finder",
       "description": "Search engine that helps you find food in your area.",
       "imgurl": "images/portfolio/rfinder.PNG",
-      "link": "https://morrow7564.github.io/Restaurant-Finder/"
+      "link": "https://morrow7564.github.io/Restaurant-Finder/",
+      "github":"https://github.com/morrow7564/Restaurant-Finder" 
+      
     },
     {
       "name": "Budget Tracker",

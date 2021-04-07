@@ -68,21 +68,20 @@ header .banner-text hr {
    border-color: rgba(150, 150, 150, .1);
 }
 
-
 header .social-links {
    margin: 18px 0 30px 0;
    padding: 0;
    font-size: 30px;
-   color: white !important;
 }
 header .social-links li {
     display: inline-block;
     margin: 0;
     padding: 0;
     margin-left: 42px;
-   
+    
+    right: em;
+  
 }
-
 
 /* scrolldown link */
 header .scrolldown a {
@@ -271,39 +270,39 @@ ul#nav li.current a { color:  #e9da05; }
 }
 
 .reactjs {
-   width: 50%;
+   width: 92%;
    -moz-animation: reactjs 2s ease;
    -webkit-animation: reactjs 2s ease;
 }
 .javascript {
-   width: 70%;
+   width: 95%;
    -moz-animation: javascript 2s ease;
    -webkit-animation: javascript 2s ease;
 }
 .mysql {
-   width: 76%;
+   width: 88%;
    -moz-animation: mysql 2s ease;
    -webkit-animation: mysql 2s ease;
 }
 .css {
-   width: 80%;
+   width: 97%;
    -moz-animation: css 2s ease;
    -webkit-animation: css 2s ease;
 }
 .html {
-   width: 85%;
+   width: 100%;
    -moz-animation: html5 2s ease;
    -webkit-animation: html5 2s ease;
 }
 
 .mongodb {
-   width: 70%;
+   width: 90%;
    -moz-animation: mongodb 2s ease;
    -webkit-animation: mongodb 2s ease;
 }
 
 .nodejs {
-   width: 70%;
+   width: 85%;
    -moz-animation: nodejs 2s ease;
    -webkit-animation: nodejs 2s ease;
 }
@@ -312,94 +311,48 @@ ul#nav li.current a { color:  #e9da05; }
 
 @-moz-keyframes reactjs {
 0%   { width: 0px;  }
-100% { width: 60%;  }
+100% { width: 92%;  }
 }
 @-moz-keyframes javascript {
 0%   { width: 0px;  }
-100% { width: 75%;  }
+100% { width: 95%;  }
 }
 @-moz-keyframes mysql {
 0%   { width: 0px;  }
-100% { width: 70%;  }
+100% { width: 88%;  }
 }
 @-moz-keyframes css {
 0%   { width: 0px;  }
-100% { width: 90%;  }
+100% { width: 98%;  }
 }
 @-moz-keyframes html5 {
 0%   { width: 0px;  }
-100% { width: 90%;  }
+100% { width: 100%;  }
 }
 @-moz-keyframes jquery {
 0%   { width: 0px;  }
-100% { width: 65%;  }
+100% { width: 89%;  }
 }
 @-moz-keyframes mongodb {
 0%   { width: 0px;  }
-100% { width: 70%;  }
+100% { width: 90%;  }
 }
 @-moz-keyframes bootstrap {
 0%   { width: 0px;  }
-100% { width: 80%;  }
+100% { width: 95%;  }
 }
 @-moz-keyframes nodejs {
 0%   { width: 0px;  }
-100% { width: 70%;  }
+100% { width: 85%;  }
 }
 @-moz-keyframes express {
 0%   { width: 0px;  }
-100% { width: 70%;  }
+100% { width: 88%;  }
 }
 @-moz-keyframes handelbarsjs {
 0%   { width: 0px;  }
-100% { width: 50%;  }
-}
-
-@-webkit-keyframes reactjs {
-0%   { width: 0px;  }
-100% { width: 60%;  }
-}
-@-webkit-keyframes javascript {
-0%   { width: 0px;  }
-100% { width: 75%;  }
-}
-@-webkit-keyframes mysql {
-0%   { width: 0px;  }
-100% { width: 70%;  }
-}
-@-webkit-keyframes css {
-0%   { width: 0px;  }
-100% { width: 90%;  }
-}
-@-webkit-keyframes html5 {
-0%   { width: 0px;  }
-100% { width: 90%;  }
-}
-@-webkit-keyframes jquery {
-0%   { width: 0px;  }
-100% { width: 65%;  }
-}
-@-webkit-keyframes mongodb {
-0%   { width: 0px;  }
-100% { width: 70%;  }
-}
-@-webkit-keyframes bootstrap {
-0%   { width: 0px;  }
 100% { width: 80%;  }
 }
-@-webkit-keyframes nodejs {
-0%   { width: 0px;  }
-100% { width: 70%;  }
-}
-@-webkit-keyframes express {
-0%   { width: 0px;  }
-100% { width: 70%;  }
-}
-@-webkit-keyframes handelbarsjs {
-0%   { width: 0px;  }
-100% { width: 50%;  }
-}
-
 
 
 /* ------------------------------------------------------------------ */
@@ -595,6 +548,17 @@ ul#nav li.current a { color:  #e9da05; }
    text-align: left;
    color: #ebeeee;
 }
+#contact h2 {
+   font: 2.2em 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: #EBEEEE;
+   margin-bottom: 6px;
+   position: relative;
+   left: 6em;
+}
+
+
 
 #contact h4 {
    font: 16px/24px 'opensans-bold', sans-serif;
@@ -708,7 +672,7 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color:  #e9da05;
+  
 }
 
 footer .social-links li:first-child { margin-left: 0; }
