@@ -54,20 +54,22 @@ let resumeData = {
       "description": "Search engine that helps you find food in your area.",
       "imgurl": "images/portfolio/rfinder.PNG",
       "link": "https://morrow7564.github.io/Restaurant-Finder/",
-      "github":"https://github.com/morrow7564/Restaurant-Finder" 
+      "github":"https://morrow7564.github.io/Restaurant-Finder/" 
       
     },
     {
       "name": "Budget Tracker",
       "description": "Budget Tracker for the modern people.",
       "imgurl": "images/portfolio/BudgetTracker.png",
-      "link": "https://smartmoneybudget.herokuapp.com/"
+      "link": "https://smartmoneybudget.herokuapp.com/",
+      "github":"https://github.com/morrow7564/SmartMoney" 
     },
     {
       "name": "Modern Living",
       "description": "All-in-one site for all of your home improvement needs.",
       "imgurl": "images/portfolio/ModernLiving.png",
-      "link": " https://modernlive.herokuapp.com/"
+      "link": " https://modernlive.herokuapp.com/",
+      "github":"https://github.com/morrow7564/Mordern-Living-" 
     },
   ],
   "inspiration": [

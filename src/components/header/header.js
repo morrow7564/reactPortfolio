@@ -29,7 +29,7 @@ export default class Header extends Component {
                </h3>
                <hr/>
                <ul className="social-links style=color: #e9da05">
-            {/* {
+            {
               resumeData.socialLinks && resumeData.socialLinks.map((item)=>{
                 return(
                   <li>
@@ -39,7 +39,7 @@ export default class Header extends Component {
                   </li>
                 )
               })
-            } */}
+            }
           </ul>
                
             </div>

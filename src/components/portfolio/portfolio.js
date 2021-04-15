@@ -19,20 +19,23 @@ export default class Porfolio extends Component {
               return(
                 <div className="columns portfolio-item">
                   
-                  <a href={item.link}>
+                  
                   <div className="item-wrap">
                    
                       <img src={`${item.imgurl}`} className="item-img"/>
+                      
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h4>{item.name}</h4>
                           <p>{item.description}</p>
-                          {/* <div href={item.github} >      <button></button></div> */}
                         </div>
+                        
                       </div>
-                  
+                    
                   </div>
-                  </a>
+                  <div> 
+                        <a href={item.link} target="_blank" rel="noreferrer"className="app-link"><i className="fas fa-link"></i> App</a> <a href={item.github} target="_blank" rel="noreferrer"className="app-link"><i className="fas fa-link"></i> Github</a>
+                          </div>
                   
                 </div>
                 
